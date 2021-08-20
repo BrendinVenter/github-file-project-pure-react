@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #111d4a;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Mono', monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.file-list {
+  font-family: 'Space Mono', monospace !important;
+  background-color: white;
+  color: #111d4a;
+  padding: 1em;
+  border-radius: 1em;
+  text-align: left;
+}
+
+.file-icon {
+  padding-right: 0.5em;
+}
+
+.file-name {
+  padding-right: 3em;
+}
+
+.file-message {
+  padding-right: 3em;
+}
+
+.file-time {
+  opacity: 0.8;
+}
